@@ -1,0 +1,19 @@
+=== COLOUR PALETTE ===
+  Brand Orange:       #e87a13
+  Dark Orange:        #c96510
+  Sage Green:         #8f9561
+  Dark Sage:          #7b824f
+  Cream Background:   #fbf4df
+  Main Text:          #4e3f2d
+  Muted Text:         #756957
+
+  === FONTS ===
+  Headings: Fraunces (Google Fonts) — serif, elegant
+  Body:     Nunito Sans (Google Fonts) — clean, readable
+
+  === WHY THESE CHOICES ===
+  Warm earthy tones chosen to feel welcoming and community-
+  oriented. Fraunces gives a trustworthy, established feel.
+  Nunito Sans is highly readable at all sizes.
+
+In project Directory:css/styles.css :root block)

@@ -1,0 +1,13 @@
+Pages planned:
+  1. Home       - Hero, features, how it works, video
+  2. About      - Mission, values, community image, audio
+  3. Services   - Skill cards with book session buttons
+  4. Gallery    - Photo grid with lightbox modal
+  5. Stories    - Community testimonials with photos
+  6. Join Us    - Registration form + contact details
+  7. Toolkit    - Resources and upcoming events
+
+  Research: Looked at https://www.csv.org.uk and
+  https://www.ncvo.org.uk for community website inspiration.
+
+  Tools used: VS Code, Google Fonts, Squoosh (image compression)planning_notes

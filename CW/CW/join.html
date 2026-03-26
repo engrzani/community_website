@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join HelpingHands Network - register to share and learn skills with your community neighbours.">
+  <title>Join Us | HelpingHands Network</title>
+  <!-- External shared CSS stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ Top Info Bar ============ -->
+  <div class="top-bar">
+    <span>Welcome to HelpingHands Network</span>
+  </div>
+
+  <!-- ============ Header / Navigation ============ -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo-area">
+        <img src="images/logo.png" alt="HelpingHands Network logo" loading="lazy">
+        <h1>HelpingHands Network</h1>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">Our-Mission</a>
+        <a href="services.html">Skill-Exchange</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="stories.html">Stories</a>
+        <a href="toolkit.html">Toolkit</a>
+        <a href="join.html" class="btn-join active">Join-Us</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+  <!-- ============ Become a Member Section ============ -->
+  <section class="join-section">
+    <div class="container">
+
+      <!-- Two-column layout: form on left, sidebar on right -->
+      <div class="join-layout">
+
+        <!-- Left column: registration form -->
+        <div class="member-form-wrapper fade-in">
+          <h2>Become a Member</h2>
+          <p>Choose your path and start sharing skills today!</p>
+
+          <form id="join-form" aria-label="Membership registration form">
+
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="email@example.com" required>
+            </div>
+
+            <!-- Radio buttons: Teacher or Learner -->
+            <div class="radio-group">
+              <p>I want to join as a:</p>
+              <label>
+                <input type="radio" name="role" value="teacher" checked>
+                Teacher (I have a skill to share)
+              </label>
+              <label>
+                <input type="radio" name="role" value="learner">
+                Learner (I want to learn a skill)
+              </label>
+            </div>
+
+            <!-- Skill dropdown -->
+            <div class="form-group">
+              <label for="skill-select">What skill can you offer?</label>
+              <select id="skill-select" name="skill-select">
+                <option value="">Select a skill...</option>
+                <option value="gardening">Gardening</option>
+                <option value="coding">Coding</option>
+                <option value="baking">Baking</option>
+                <option value="photography">Photography</option>
+                <option value="guitar">Guitar</option>
+                <option value="cooking">Cooking</option>
+                <option value="knitting">Knitting</option>
+                <option value="bike-repair">Bike Repair</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Tell us about yourself (optional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="A short introduction..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary btn-primary--full">Join Now</button>
+          </form>
+        </div>
+
+        <!-- Right column: sidebar info boxes -->
+        <div class="join-sidebar fade-in">
+
+          <!-- Visit Our Hub box (green) -->
+          <div class="sidebar-box sidebar-hub">
+            <h3>Visit Our Hub</h3>
+            <ul>
+              <li><strong>Location:</strong> 58 Helping Lane, Community Park, CP3 7HN</li>
+              <li><strong>Email:</strong> hello@helpinghandsnetwork.org</li>
+              <li><strong>Phone:</strong> 0161 234 5678</li>
+              <li><strong>Hours:</strong> Mon – Fri, 9 AM – 5 PM</li>
+            </ul>
+          </div>
+
+          <!-- Why Join box (brown) -->
+          <div class="sidebar-box sidebar-why">
+            <h3>Why Join?</h3>
+            <p>
+              By joining, you become part of a network of neighbours helping
+              neighbours grow. Share what you know, learn something new, and
+              build genuine connections in your local community.
+            </p>
+          </div>
+
+        </div>
+
+      </div><!-- /join-layout -->
+    </div>
+  </section>
+
+  </main><!-- /main -->
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 HelpingHands Network. All Rights Reserved.</p>
+      <p>
+        <a href="index.html">Home</a> &middot;
+        <a href="about.html">Our Mission</a> &middot;
+        <a href="services.html">Skill Exchange</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top button -->
+  <button class="scroll-top" aria-label="Scroll to top">&uarr;</button>
+
+  <!-- External JavaScript file -->
+  <script src="js/main.js"></script>
+</body>
+</html>

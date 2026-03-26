@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse our gallery of skill-sharing moments at HelpingHands Network. Photography, Baking, Coding and more.">
+  <title>Gallery | HelpingHands Network</title>
+  <!-- External shared CSS stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ Top Info Bar ============ -->
+  <div class="top-bar">
+    <span>Welcome to HelpingHands Network</span>
+  </div>
+
+  <!-- ============ Header / Navigation ============ -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo-area">
+        <img src="images/logo.png" alt="HelpingHands Network logo" loading="lazy">
+        <h1>HelpingHands Network</h1>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">Our-Mission</a>
+        <a href="services.html">Skill-Exchange</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="stories.html">Stories</a>
+        <a href="toolkit.html">Toolkit</a>
+        <a href="join.html" class="btn-join">Join-Us</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+  <!-- ============ Gallery Section ============ -->
+  <section class="gallery-section">
+    <div class="container">
+      <h2 class="section-title fade-in">Our Gallery</h2>
+      <p class="section-subtitle fade-in">Moments captured from our skill-sharing sessions across the community</p>
+      <hr class="section-divider">
+
+      <!-- 
+        Gallery grid with 8 images.
+        Each image has a hover zoom effect and an overlay label.
+        Clicking opens a lightbox modal (handled by main.js).
+      -->
+      <div class="gallery-grid">
+
+        <div class="gallery-item fade-in">
+          <img src="images/gardening.jpg" alt="Gardening session - neighbours tending to plants together" loading="lazy">
+          <div class="gallery-label">Gardening</div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="images/baking.jpg" alt="Baking workshop - fresh bread and pastries on display" loading="lazy">
+          <div class="gallery-label">Baking</div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="images/bike-repair.jpg" alt="Bike repair workshop - learning to fix bicycles" loading="lazy">
+          <div class="gallery-label">Bike Repair</div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="images/coding.jpg" alt="Coding bootcamp - neighbours learning to write code" loading="lazy">
+          <div class="gallery-label">Coding</div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="images/helping-in-cooking.jpg" alt="Cooking class - preparing a delicious meal together" loading="lazy">
+          <div class="gallery-label">Cooking</div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="images/photography.jpg" alt="Photography walk - capturing the community through a lens" loading="lazy">
+          <div class="gallery-label">Photography</div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="images/guitar.jpg" alt="Guitar tutorial - learning chords and strumming patterns" loading="lazy">
+          <div class="gallery-label">Guitar Tutorial</div>
+        </div>
+
+        <div class="gallery-item fade-in">
+          <img src="images/knitting.jpg" alt="Knitting circle - community members sharing knitting techniques" loading="lazy">
+          <div class="gallery-label">Knitting</div>
+        </div>
+
+      </div><!-- /gallery-grid -->
+    </div>
+  </section>
+
+  <!-- ============ Lightbox Modal ============ -->
+  <!-- 
+    Modal overlay for viewing full-size gallery images.
+    Opened/closed via JavaScript in main.js.
+    Accessible: closes on Escape key press and clicking outside the image.
+  -->
+  <div class="modal-overlay" role="dialog" aria-label="Image viewer">
+    <button class="modal-close" aria-label="Close image viewer">&times;</button>
+    <img src="" alt="Full size gallery image" loading="lazy">
+  </div>
+
+  </main><!-- /main -->
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 HelpingHands Network. All Rights Reserved.</p>
+      <p>
+        <a href="index.html">Home</a> &middot;
+        <a href="services.html">Skill Exchange</a> &middot;
+        <a href="join.html">Join Us</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top button -->
+  <button class="scroll-top" aria-label="Scroll to top">&uarr;</button>
+
+  <!-- External JavaScript file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
