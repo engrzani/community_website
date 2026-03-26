@@ -1,0 +1,66 @@
+HelpingHands Network — Community Website
+COMP1589 Coursework Part 2
+Features & Advanced Additions
+==========================================
+
+BASIC REQUIREMENTS MET
+-----------------------
+- 7 pages: index.html, about.html, services.html, gallery.html, stories.html, toolkit.html, join.html
+- Home page: index.html
+- Shared external CSS: css/styles.css (no inline styles anywhere)
+- External JS: js/main.js (no inline JS)
+- All images have alt attributes
+- Semantic HTML: <main>, <header>, <footer>, <nav>, <section>, <article>
+- Accessibility: aria-label, aria-expanded, lang="en", role="dialog"
+- Relative links throughout — no absolute paths
+- HTML, CSS and JS comments throughout
+- Attribution comments for any referenced code patterns
+
+MEDIA
+------
+- Images: multiple images on every page, all under 200KB
+- Audio: community audio clip on about.html
+- Video: embedded community video on index.html
+
+ADVANCED CSS (Beyond Basics)
+------------------------------
+- CSS Custom Properties (variables) for brand colours and spacing
+- CSS Grid layout — features, steps, gallery, skills, stories grids
+- Flexbox layout — header, hero section, nav, card rows
+- CSS Animations — hero image floating animation (@keyframes float)
+- CSS Transitions — hover effects on all buttons, cards and nav links
+- Responsive Media Queries:
+    * 992px breakpoint: tablet layout adjustments
+    * 600px breakpoint: mobile layout, hamburger menu shown
+- Fade-in animation on scroll using CSS class toggled by JS
+- Sticky header (position: sticky; top: 0)
+
+CUSTOM JAVASCRIPT (Written from scratch)
+------------------------------------------
+- Mobile hamburger menu toggle with aria-expanded state
+- Scroll-to-top button (appears after 400px scroll)
+- Fade-in on scroll using IntersectionObserver API
+- Gallery lightbox modal (click image to enlarge, close on click/Escape)
+- Skill request form handler with validation and user feedback
+- Join/contact form validation (name, email format check, error highlights)
+- Book session button with dynamic skill name in alert
+- Smooth scroll for in-page anchor links
+- Active nav link auto-highlight based on current page URL
+
+INTERACTIVE / DYNAMIC CONTENT
+--------------------------------
+- Gallery lightbox: clicking any gallery image opens a modal overlay
+- Form validation with real-time error highlight removal on input
+- Skill booking buttons with dynamic JS response
+- Scroll-triggered animations (fade-in) on all major page sections
+- Hamburger navigation for mobile screens
+
+CONTENT COVERAGE
+-----------------
+- index.html    : Hero, Features, How It Works, Video section, CTA
+- about.html    : Mission, Values, Audio clip, Team story
+- services.html : Skill Exchange cards with booking buttons
+- gallery.html  : 12-image grid with lightbox modal
+- stories.html  : Community member stories/testimonials
+- toolkit.html  : Guides, Safety Tips, Upcoming Events (real dates)
+- join.html     : Membership form, Contact info (location, hours, email, phone)

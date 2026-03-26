@@ -1284,3 +1284,24 @@ img {
     padding: 24px 18px;
   }
 }
+
+/* ---------- Map Section (join.html) ---------- */
+.map-section {
+  padding: 60px 0 80px;
+  background: var(--surface-soft);
+}
+
+/* Accessibility: respect user preference for reduced motion.
+   Disables animations/transitions for users who prefer less motion.
+   Source: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
