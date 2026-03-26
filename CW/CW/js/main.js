@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // ---- Fade-in on Scroll (Intersection Observer) ----
+  // Intersection Observer approach adapted from MDN Web Docs.
+  // Source: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver
   var fadeEls = document.querySelectorAll('.fade-in');
   if ('IntersectionObserver' in window && fadeEls.length) {
     var observer = new IntersectionObserver(function (entries) {
@@ -163,7 +165,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-/* Helper: validate email format */
+/* Helper: validate email format.
+   Regex pattern adapted from Stack Overflow answer by Squirtle.
+   Source: https://stackoverflow.com/a/9204568 */
 function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }

@@ -1,3 +1,6 @@
+/* Google Fonts import — Fraunces and Nunito Sans
+   Source: https://fonts.google.com/specimen/Fraunces and https://fonts.google.com/specimen/Nunito+Sans
+   License: Open Font License (free to use) */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
 
 /* ============================================================
@@ -6,6 +9,8 @@
    ============================================================ */
 
 /* ---------- CSS Reset & Base ---------- */
+/* Universal box-sizing reset — adapted from CSS-Tricks
+   Source: https://css-tricks.com/box-sizing/#universal-box-sizing-with-inheritance */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
